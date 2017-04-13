@@ -6,13 +6,7 @@ var app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-// var pusher = new Pusher({ appId: APP_ID, key: APP_KEY, secret:  APP_SECRET, cluster: eu });
-var pusher = new Pusher({
-  appId: "314073",
-  key: "da857397f8eec3092630",
-  secret:  "657d91ad4a1473b3014e",
-  cluster: "eu"
-});
+var pusher = new Pusher({ appId: APP_ID, key: APP_KEY, secret:  APP_SECRET, cluster: eu });
 
 app.post('/message', function(req, res) {
   var username = req.body.username;

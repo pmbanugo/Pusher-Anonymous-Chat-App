@@ -2,7 +2,7 @@
 
 Sample application on building a chat app using Pusher.
 
-#Setup:
+# Setup:
 1. run `npm install`
 2. Create a new application on Pusher. Select VanillaJS and NodeJS as your frontend and backend stack.
 3. Copy and Replace the placeholders __APP_ID__, __APP_SECRET__, and __APP_KEY__, with the keys from your pusher dashboard.

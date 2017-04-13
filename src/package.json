@@ -1,0 +1,23 @@
+{
+  "name": "pusher-message-delivery-status",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pusher",
+    "realtime"
+  ],
+  "author": "Peter Mbanugo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "pusher": "^1.5.1"
+  },
+  "devDependencies": {
+    "strip-ansi": "^3.0.1"
+  }
+}

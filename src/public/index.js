@@ -2,7 +2,7 @@ $(document).ready(function(){
     // Enable pusher logging - don't include this in production
     Pusher.logToConsole = true;
 
-    var pusher = new Pusher('APP_SECRET', {
+    var pusher = new Pusher('APP_KEY', {
         cluster: 'eu',
         encrypted: false
     });
